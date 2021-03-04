@@ -34,3 +34,13 @@ if option_operation == 1 :
     print('Result ',k + 1,' = ',add,' !') 
     
    print(add ,'is the final result')
+  
+elif option_operation == 2 :
+  print('You have chosen to substract ')
+  subs=0
+  l=0
+  for l in range(0,len(list_num)) :
+    subs-= list_num[l]
+    print('Result ',l + 1,' = ',subs,' !')
+   
+  print(subs,' is the final result !!!')
