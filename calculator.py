@@ -22,3 +22,6 @@ for i in range (0,int(num)):
     print('this was the ',i+1,' value')
     list_num.append(val)
     i+=1
+    
+option_operation = int(input('Select the function by entering the number corresponding to the funtion 1- Addition 2- Substraction 3- Multiplication 4- Division : '))
+
