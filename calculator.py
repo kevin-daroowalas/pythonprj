@@ -26,9 +26,10 @@ for i in range (0,int(num)):
 option_operation = int(input('Select the function by entering the number corresponding to the funtion 1- Addition 2- Substraction 3- Multiplication 4- Division : '))
 
 if option_operation == 1 :
+  print('You have chosen to add !!! ')
   add=0
   k=0
-  for k in range (0,(len(list_num) - 1)):
+  for k in range (0,len(list_num))):
     add+= list_num[k]
     print('Result ',k + 1,' = ',add,' !') 
     
