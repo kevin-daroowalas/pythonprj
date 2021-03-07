@@ -40,7 +40,27 @@ elif option_operation == 2 :
   subs=0
   l=0
   for l in range(0,len(list_num)) :
-    subs-= list_num[l]
-    print('Result ',l + 1,' = ',subs,' !')
-   
-  print(subs,' is the final result !!!')
+    if l==0:
+      subs=list_num[l]
+      abs(subs)
+      print('Result',l+1,' = ',subs,' !')
+    else:
+      subs-=list_num[l]
+      print('Result ',l+1,' = ',subs,' !')
+    print(subs,' is the final result')
+elif option_operation ==3:
+  print('You have chosen to do a successive multiplication')
+  mul=0
+  m=0
+  for m in range(0,len(list_num)):
+    mul*=list_num[m]
+    print('Result ',m+1,' = ',nul,' !')
+  print(mul,' is the final result !!!')
+elif option_operation ==4:
+  print('You have chosen to do a division')
+  div=0
+  d=0
+  divider=int(input('Please enter te number with whch you will divider "divider" : '))
+  for d in rnde(0,len(list_num)):
+    div=list_num[d]/divider
+    print('Result ',d+1,' = ',div,' !')
